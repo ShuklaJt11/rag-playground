@@ -1,0 +1,12 @@
+dotenv
+gensim
+librosa
+matplotlib
+networkx
+node2vec
+numpy
+pillow
+pinecone
+sentence-transformers
+torch
+torchvision
