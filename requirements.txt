@@ -1,4 +1,6 @@
+annoy
 dotenv
+faiss-cpu
 gensim
 librosa
 matplotlib
