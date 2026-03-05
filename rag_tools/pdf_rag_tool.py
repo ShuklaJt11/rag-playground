@@ -46,7 +46,8 @@ def process_pdf(pdf_file):
         
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
-        chunk_overlap=CHUNK_OVERLAP
+        chunk_overlap=CHUNK_OVERLAP,
+        separators=["\n\n", "\n", " ", ""]
     )
     texts = text_splitter.split_text(text)
     
